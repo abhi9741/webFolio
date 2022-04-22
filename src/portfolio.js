@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "Vishal's Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  description: "Here to challenge the FRONTIER TECH 🚀",
   og: {
     title: "Vishal Gade Portfolio",
     type: "website",
@@ -22,8 +21,7 @@ const greeting = {
   title: "Vishal Gade",
   logo_name: "Vishal Gade",
   nickname: "gvr27",
-  subTitle:
-    "A passionate individual who likes to build things, especially Robots.",
+  subTitle: "Here to challenge the FRONTIER TECH 🚀",
   resumeLink:
     "https://drive.google.com/file/d/1WtR3FXH4Vuf3t775ccSOQK6n0_9Ue9mX/view?usp=sharing",
   portfolio_repository: "https://github.com/vishal-gade/webFolio",
@@ -562,7 +560,7 @@ const experience = {
     },
   ],
 };
-//
+
 // Projects Page
 const projectsHeader = {
   title: "Projects",
@@ -574,7 +572,7 @@ const projectsHeader = {
 const publicationsHeader = {
   title: "Publications",
   description:
-    "I have worked on and published a few research papers and publications of my own.",
+    "I am the First Author for two research papers which are presented in HCI International conferences held in 2020 and 2021.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -582,27 +580,27 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "beach_dp.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me.",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
-    avatar_image_path: "blogs_image.svg",
+    // title: "Blogs",
+    // subtitle:
+    //   "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+    // link: "https://ashutoshhathidara.wordpress.com",
+    // avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    subtitle: "10 Via Ricasol, Apt A227, Irvine, CA - 92612",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link:
+      "https://www.google.com/maps/place/10+Via+Ricasol,+Irvine,+CA+92612/@33.6689089,-117.852646,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde610a555823:0x2cfba1ba61e83dbc!8m2!3d33.6689089!4d-117.8504573",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8320758513",
+    subtitle: "+1 (949)228-7532",
   },
 };
 
