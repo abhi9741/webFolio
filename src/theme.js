@@ -129,4 +129,4 @@ export const newTheme = {
   jacketColor: "#0A2472",
   headerColor: "#0E6BA877",
 };
-export const chosenTheme = newTheme;
+export const chosenTheme = blueTheme;
