@@ -135,9 +135,9 @@ const skills = {
       title: "Embedded System Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Working with various layers of the OSI model",
+        "⚡ Experienced with microcontrollers and microprocessor platforms, hardware architecture with real-time operating systems and also edge computing",
+        "⚡ Modeling the flow of the data from the sensor to the cloud",
       ],
       softwareSkills: [
         {
