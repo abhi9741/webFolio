@@ -510,6 +510,17 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Robotics Intern",
+          company: "TDK InvenSense",
+          company_url: "https://invensense.tdk.com/",
+          logo_path: "TDK_logo.png",
+          duration: "June 2022 - September 2022",
+          location: "San Jose, CA",
+          description:
+            "Development of ROS drivers for TDK InvenSense Robokit board for robotic applicationd",
+          color: "#D83B01",
+        },
+        {
           title: "Research Associate",
           company: "Mahindra University",
           company_url: "https://www.mahindrauniversity.edu.in/",
