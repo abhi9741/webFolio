@@ -2,8 +2,8 @@ import fetch from 'node-fetch';
 import fs from 'fs';
 
 const openSource = {
-  githubConvertedToken: "Your Github Token Here",
-  githubUserName: "Your Github Username Here",
+  githubConvertedToken: "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",
+  githubUserName: "vishal-gade",
 };
 
 const query_pr = {
@@ -98,8 +98,8 @@ const query_org = {
 
 const query_pinned_projects = {
   query: `
-	query { 
-	  user(login: "${openSource.githubUserName}") { 
+	query {
+	  user(login: "${openSource.githubUserName}") {
 	    pinnedItems(first: 6, types: REPOSITORY) {
 	      totalCount
 	      nodes{
