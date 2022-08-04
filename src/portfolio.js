@@ -23,7 +23,7 @@ const greeting = {
   nickname: "abhi",
   subTitle: "Machine Learning | Computer Vision ",
   resumeLink:
-    "https://studntnu-my.sharepoint.com/:b:/g/personal/abhinavn_ntnu_no/EXkfKQKWlxdEswiaKt5IN5cBbxRtwbCCGQKQLCrhz7X3kg?e=AV77u9",
+    "https://studntnu-my.sharepoint.com/:b:/g/personal/abhinavn_ntnu_no/EdUws1NE7-pNlBOxqdFH-_YBbzTS1Ft5AkFn8_FKSYcYXQ?e=3crdLY",
   portfolio_repository: "https://github.com/abhi9741/webFolio",
   githubProfile: "https://github.com/abhi9741",
 };
