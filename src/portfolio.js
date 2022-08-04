@@ -7,44 +7,43 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Vishal's Portfolio",
-  description: "Here to challenge the FRONTIER TECH 🚀",
+  title: "Abhinav's Portfolio",
+  description: "Machine Learning | Computer Vision ",
   og: {
-    title: "Vishal Gade Portfolio",
+    title: "Abhinav Reddy Portfolio",
     type: "website",
-    url: "http://vishalgade.me",
+    url: "http://abhinavreddy.tech",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Vishal Gade",
-  logo_name: "Vishal Gade",
-  nickname: "gvr27",
-  subTitle: "Here to challenge the FRONTIER TECH 🚀",
+  title: "Abhinav Reddy Nimma",
+  logo_name: "Abhinav Reddy Nimma",
+  nickname: "abhi",
+  subTitle: "Machine Learning | Computer Vision ",
   resumeLink:
-    "https://drive.google.com/file/d/1WtR3FXH4Vuf3t775ccSOQK6n0_9Ue9mX/view?usp=sharing",
-  portfolio_repository: "https://github.com/vishal-gade/webFolio",
-  githubProfile: "https://github.com/vishal-gade",
+    "https://studntnu-my.sharepoint.com/:b:/g/personal/abhinavn_ntnu_no/EXkfKQKWlxdEswiaKt5IN5cBbxRtwbCCGQKQLCrhz7X3kg?e=AV77u9",
+  portfolio_repository: "https://github.com/abhi9741/webFolio",
+  githubProfile: "https://github.com/abhi9741",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/vishal-gade",
-  // linkedin: "https://www.linkedin.com/in/vishalgade/",
-  // gmail: "gvr2799@gmail.com",
-  // facebook: "https://www.facebook.com/gvr27/",
-  // instagram: "https://www.instagram.com/gvr027/",
+  // github: "https://github.com/abhi9741",
+  // linkedin: "https://www.linkedin.com/in/abhinavreddyn/",
+  // gmail: "abhinavreddyn@stud.ntnu.no",
+  // instagram: "https://www.instagram.com/abhinavreddynimma/",
 
   {
     name: "Github",
-    link: "https://github.com/vishal-gade",
+    link: "https://github.com/abhi9741",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/vishalgade/",
+    link: "https://www.linkedin.com/in/abhinavreddyn/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -56,7 +55,7 @@ const socialMediaLinks = [
   // },
   {
     name: "Gmail",
-    link: "mailto:gvr2799@gmail.com",
+    link: "mailto:abhinavreddyn@stud.ntnu.no",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -66,15 +65,15 @@ const socialMediaLinks = [
   //   fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
   //   backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   // },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/gvr27/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
+  //{
+  //  name: "Facebook",
+  //  link: "https://www.facebook.com/gvr27/",
+  // fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  // backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  //},
   {
     name: "Instagram",
-    link: "https://www.instagram.com/gvr027/",
+    link: "https://www.instagram.com/abhinavreddynimma/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -83,44 +82,37 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Mobile Robotics",
+      title: "Computer Vision",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Designing and developing application specific autonomous mobile robots",
-        "⚡ Programmed features including Sensor Fusion, SLAM (Simultaneous Localization and Mapping), Path Planning, Obstacle Avoidance, HRI (Human Robot Interactions)",
-        "⚡ Experience in formulating application specific algorithms and working with hardware components",
+        "⚡ Designing and developing Deep Learning based systems for computer vision tasks",
+        "⚡ Implemented systems for acquiring, processing, analyzing images and videos",
+        "⚡ Experience in implementing end-to-end Deep Learning systems in Python, PyTorch",
       ],
       softwareSkills: [
         {
-          skillName: "ROS",
-          fontAwesomeClassname: "simple-icons:ros",
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Linux",
-          fontAwesomeClassname: "cib:linux",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos:pytorch-icon",
           style: {
             backgroundColor: "transparent",
             // color: "#D00000",
           },
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "file-icons:c",
+          skillName: "MATLAB",
+          fontAwesomeClassname: "vscode-icons:file-type-matlab",
           style: {
             backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "akar-icons:python-fill",
-          style: {
-            backgroundColor: "transparent",
-            // color: "#3776AB",
-          },
-        },
+
         {
           skillName: "OpenCV",
           fontAwesomeClassname: "file-icons:opencv",
@@ -129,60 +121,54 @@ const skills = {
             // color: "#3776AB",
           },
         },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "flat-color-icons:linux",
+          style: {
+            backgroundColor: "transparent",
+            // color: "#3776AB",
+          },
+        },
       ],
     },
     {
-      title: "Embedded System Development",
+      title: "Machine Learning",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Working with various layers of the OSI model",
-        "⚡ Experienced with microcontrollers and microprocessor platforms, hardware architecture with real-time operating systems and also edge computing",
-        "⚡ Modeling the flow of the data from the sensor to the cloud",
+        "⚡ Well versed with various machine learning algorithms ",
+        "⚡ Experienced in implementing Data-pipelines, extracting patterns from data",
       ],
       softwareSkills: [
         {
-          skillName: "micro-controllers",
-          fontAwesomeClassname: "fa-microchip",
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Communication Protocols",
-          fontAwesomeClassname: "carbon:load-balancer-network",
+          skillName: "R",
+          fontAwesomeClassname: "file-icons:r",
           style: {
             backgroundColor: "transparent",
             // color: "#000000",
           },
         },
         {
-          skillName: "Internet Of Things",
-          fontAwesomeClassname: "eos-icons:iot",
+          skillName: "Data Viz",
+          fontAwesomeClassname: "wpf:statistics",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "MATLAB",
-          fontAwesomeClassname: "file-icons:matlab",
+          skillName: "DBMS",
+          fontAwesomeClassname: "vscode-icons:file-type-sql",
           style: {
             backgroundColor: "transparent",
           },
         },
-        {
-          skillName: "Sensors",
-          fontAwesomeClassname: "flat-color-icons:electrical-sensor",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
+
         // {
         //   skillName: "NPM",
         //   fontAwesomeClassname: "simple-icons:npm",
@@ -372,29 +358,62 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "University of California Irvine",
-      subtitle: "Professional Masters in Embedded and Cyber-physical Systems",
-      logo_path: "UCI_logo.png",
-      alt_name: "UC Irvine",
-      duration: "2021 - Present",
+      title:
+        "Erasmus Mundus Joint Master's Degree in Computational Colour and Spectral Imaging ",
+      //subtitle: "Erasmus Mundus Joint Master's Degree in Computational Colour and Spectral Imaging ",
+      logo_path: "cosi_logo.webp",
+      alt_name: "cosi",
+      duration: "2021 - 2023",
       descriptions: [
-        "⚡ Courses: Embedded Systems Modeling and Design, Wireless Sensor and Actuator Networks, Machine Learning and Data Mining, Embedded System Software, Security and Privacy Issues in CPS.",
-        "⚡ Apart from this, I am also a mentor to Embedded systems team in Electric racing car project ",
-        "⚡ CGPA 3.90/4.0.",
+        "⚡ Two-year scientific Erasmus Mundus Joint Master’s Degree offered by the consortium of 4 universities, aiming to train the next generation of highly-skilled industrial experts in applied Colour Science, in various cutting-edge industries (Image Processing, Vision, Graphics, Spectral Imaging, Computer Graphics, Optics, Photonics)",
       ],
-      website_link: "https://uci.edu/",
+      website_link: "https://cosi-master.eu/cosi-master-degree/",
+    },
+    {
+      //title: "Erasmus Mundus Joint Master's Degree in Computational Colour and Spectral Imaging ",
+      subtitle:
+        "Specialization in Computational Colour & Visual Computing, Norwegian University of Science and Technology (NTNU) ",
+      logo_path: "erasmus_logo.webp",
+      alt_name: "erasmus",
+      duration: "Aug 2021 - Dec 2021",
+      descriptions: [
+        "⚡ Courses : Image Processing and Analysis, Computer Graphics Fundamentals and Applications, Introduction to Research on Colour and Visual Computing, Cross-media Color Reproduction",
+      ],
+      //website_link: "https://cosi-master.eu/cosi-master-degree/",
+    },
+    {
+      //title: "Erasmus Mundus Joint Master's Degree in Computational Colour and Spectral Imaging ",
+      subtitle:
+        "Specialization in Photonics, Image and Vision, Universidad de Granada ",
+      logo_path: "ugr_logo.png",
+      alt_name: "ugr",
+      duration: "Jan 2022 - June 2022",
+      descriptions: [
+        "⚡ Courses : Computer vision, Data science, Remote Imaging and Sensing, Human perception and cognition, Advanced colour and spectral imaging, Advanced optoelectronics",
+      ],
+      //website_link: "https://cosi-master.eu/cosi-master-degree/",
+    },
+    {
+      //title: "Erasmus Mundus Joint Master's Degree in Computational Colour and Spectral Imaging ",
+      subtitle:
+        "Specialization in Colour and Visual Computing, Norwegian University of Science and Technology (NTNU)  ",
+      logo_path: "ntnu_logo.png",
+      alt_name: "ntnu",
+      duration: "Aug 2022 - Dec 2022",
+      descriptions: [
+        "⚡ Courses : Deep learning for visual computing, Specialisation in video processing, Specialisation in colour imaging, AAppearance, perception and measurement",
+      ],
+      //website_link: "https://cosi-master.eu/cosi-master-degree/",
     },
     {
       title: "Mahindra University",
-      subtitle:
-        "Bachelor of Technology in Electrical and Electronics Engineering",
+      subtitle: "Bachelor of Technology in Computer Science and Engineering",
       logo_path: "MU_logo.png",
       alt_name: "MU",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ Courses: Microprocessors and Micro-controllers, Autonomous connected & Intelligent Vehicles.",
-        "⚡ Apart from this, I was the lead of two funded autonomous mobile robot projects ",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college.",
+        "⚡ Courses: Deep Learning, Machine Learning, Advanced Data Analytics.",
+        "⚡ Scholorship for academic excellence in 2017-18 & in 2018-19  ",
       ],
       website_link: "https://www.mahindrauniversity.edu.in/",
     },
@@ -402,70 +421,15 @@ const degrees = {
 };
 
 const certifications = {
-  certifications: [
-    {
-      title: "Control of Mobile Robots",
-      subtitle: "Georgia Institute of Technology",
-      logo_path: "georgia_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/B3Y756DRLAHS",
-      alt_name: "Georgia Institute of Technology",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Introduction to Self-Driving Cars",
-      subtitle: "University of Toronto",
-      logo_path: "toronto_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/D4ZY3WJE8U3Z",
-      alt_name: "University of Toronto",
-      color_code: "#00000099",
-    },
-    {
-      title: "Motion Planning for Self-Driving Cars",
-      subtitle: "University of Toronto",
-      logo_path: "toronto_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/MJFGXZY4MGHE",
-      alt_name: "University of Toronto",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Visual Perception for Self-Driving Cars",
-      subtitle: "University of Toronto",
-      logo_path: "toronto_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/RE3NYX43C6Y2",
-      alt_name: "University of Toronto",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "State Estimation and Localization for Self-Driving Cars",
-      subtitle: "University of Toronto",
-      logo_path: "toronto_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/TK968C366JKA",
-      alt_name: "University of Toronto",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Python for Everybody",
-      subtitle: "University of Michigan",
-      logo_path: "michigan_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/BKWT65VN2MG4",
-      alt_name: "University of Michigan",
-      color_code: "#4285F499",
-    },
-  ],
+  certifications: [],
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
   subtitle: "Internship and Volunteership",
-  description:
-    "I am a graduate student at University of California, Irvine seeking opportunity for professional challenges and growth in the field of Embedded Systems and Robotics.",
+  // description:
+  //"I am a graduate student at University of California, Irvine seeking opportunity for professional challenges and growth in the field of Embedded Systems and Robotics.",
   header_image_path: "experience.svg",
   sections: [
     // {
@@ -510,36 +474,36 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Robotics Intern",
-          company: "TDK InvenSense",
-          company_url: "https://invensense.tdk.com/",
-          logo_path: "TDK_logo.png",
-          duration: "June 2022 - September 2022",
-          location: "San Jose, CA",
+          title: "Machine Learning Intern",
+          company: "Picterus AS",
+          company_url: "https://www.picterus.com/",
+          logo_path: "picterus.png",
+          duration: "July 2022 - Aug 2022",
+          location: "Trondheim, Norway",
           description:
-            "Development of ROS drivers for TDK InvenSense Robokit board for robotic applicationd",
+            "Responsible for designing & implementing deep learning based system for Spectral Reconstruction of Skin from Smartphone Images. ",
           color: "#D83B01",
         },
         {
-          title: "Research Associate",
-          company: "Mahindra University",
-          company_url: "https://www.mahindrauniversity.edu.in/",
-          logo_path: "MU_logo.png",
-          duration: "July 2020 - October 2020",
+          title: "Software Developer Intern",
+          company: "Dell Technologies",
+          company_url: "https://www.dell.com/en-in",
+          logo_path: "dell.jpg",
+          duration: "Jan 2020 - Mar 2020",
           location: "Hyderabad, India",
           description:
-            "Built an autonomous UV disinfection robot. Formulated an algorithm for disinfecting a place by navigating from one waypoint to another and activating the UV lights based on required dosage. Integrated Human Robot Interaction features to make the robot work alongside humans. Coordinated with a four-person team comprised of three professors",
+            " Responsible for creating Automation Scripts for Business Intelligence Team, Dell Financial Services. ",
           color: "#0879bf",
         },
         {
-          title: "Summer Intern",
-          company: "Indian Institute of Technology",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "IIT_logo.png",
-          duration: "May 2019 - July 2019",
-          location: "Delhi, India",
+          title: "Research Intern",
+          company: "The Norwegian Colour and Visual Computing Lab",
+          company_url: "https://www.ntnu.edu/colourlab#/view/about",
+          logo_path: "Colourlab.png",
+          duration: "Jun 2019 - Aug 2019",
+          location: "Gjovik, Norway",
           description:
-            "Devised and assembled two robots - Autonomous mobile platform and a Stewart platform. Collaborated with a team of 2 peers to design, fabricate and assemble everything from scratch.",
+            "Responsible for building a system to Detect defects (potholes & cracks) on road surfaces using Computer Vision and AI with The Norwegian Colour and Visual Computing Laboratory.",
           color: "#ee3c26",
         },
       ],
@@ -549,24 +513,25 @@ const experience = {
       experiences: [
         {
           title: "Volunteer",
-          company: "DD-Robocon - Asia-Pacific Broadcasting Union (ABU)",
-          company_url: "http://www.ddrobocon.in/",
-          logo_path: "robocon.jpg",
-          duration: "July 2019",
-          location: "Delhi, India",
+          company:
+            "The International Conference on Machine Learning and Data Science",
+          company_url: "http://icmlds.com/",
+          logo_path: "icmlds.png",
+          duration: "December 2019",
+          location: "Hyderbad, India",
           description: "",
           color: "#4285F4",
         },
-        {
-          title: "Organizing Member",
-          company: "IEEE Symposium on Smart Electronic Systems (iSES)",
-          company_url: "https://ieee-ises.org/2018/",
-          logo_path: "ieee_logo.png",
-          duration: "July 2019",
-          location: "Hyderabad, Telangana",
-          description: "",
-          color: "#D83B01",
-        },
+        // {
+        //   title: "Organizing Member",
+        //   company: "IEEE Symposium on Smart Electronic Systems (iSES)",
+        //   company_url: "https://ieee-ises.org/2018/",
+        //   logo_path: "ieee_logo.png",
+        //   duration: "July 2019",
+        //   location: "Hyderabad, Telangana",
+        //   description: "",
+        //   color: "#D83B01",
+        // },
       ],
     },
   ],
@@ -576,14 +541,14 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My Projects are inter-disciplinary and gave me a hands-on experience at each step.",
+    "Interested in designing & developing Intelligent Systems, that learn autonomously from data, with a focus on Computer Vision & Imaging applications. ",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description:
-    "I am the First Author for two research papers which are presented in HCI International conferences held in 2020 and 2021.",
+  //description:
+  //"I am the First Author for two research papers which are presented in HCI International conferences held in 2020 and 2021.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -591,9 +556,9 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "beach_dp.jpg",
+    profile_image_path: "abhi.jpg",
     description:
-      "I am available on almost every social media. You can message me.",
+      "I am available on almost every social media. Feel free to message me.",
   },
   blogSection: {
     // title: "Blogs",
@@ -603,15 +568,15 @@ const contactPageData = {
     // avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "10 Via Ricasol, Apt A227, Irvine, CA - 92612",
-    avatar_image_path: "address_image.svg",
-    location_map_link:
-      "https://www.google.com/maps/place/10+Via+Ricasol,+Irvine,+CA+92612/@33.6689089,-117.852646,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde610a555823:0x2cfba1ba61e83dbc!8m2!3d33.6689089!4d-117.8504573",
+    //title: "Address",
+    //subtitle: "10 Via Ricasol, Apt A227, Irvine, CA - 92612",
+    //avatar_image_path: "address_image.svg",
+    //location_map_link:
+    //"https://www.google.com/maps/place/10+Via+Ricasol,+Irvine,+CA+92612/@33.6689089,-117.852646,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde610a555823:0x2cfba1ba61e83dbc!8m2!3d33.6689089!4d-117.8504573",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+1 (949)228-7532",
+    //title: "Phone Number",
+    //subtitle: "+1 (949)228-7532",
   },
 };
 

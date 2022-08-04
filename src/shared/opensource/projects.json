@@ -2,46 +2,38 @@
   "data": [
     {
       "id": "R_kgDOHtdIsA",
-      "name": "mec-robo",
+      "name": "Detecting Eye Disease using Deep-Learning",
       "createdAt": "2022-07-24T20:05:47Z",
-      "url": "https://github.com/vishal-gade/mec-robo",
+      "url": "https://github.com/abhi9741/Detecting-Eye-Disease-using-Deep-Learning",
       "description": null,
       "isFork": false,
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
         }
       ]
     },
     {
       "id": "R_kgDOHtdk9g",
-      "name": "basics",
+      "name": "Market Segmentation with Machine Learning from E-Commerce Sales Data",
       "createdAt": "2022-07-24T20:43:30Z",
-      "url": "https://github.com/vishal-gade/basics",
-      "description": "Bike Auto Self Indication Cancellation System",
+      "url": "https://github.com/abhi9741/Market-Segmentation-with-Machine-Learning-from-E-Commerce-Sales-Data",
+      "description": null,
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Python",
+          "iconifyClass": "logos-python"
         }
       ]
     },
     {
       "id": "R_kgDOHtdayQ",
-      "name": "uvd-robo",
+      "name": "Spectral Reconstruction from RGB Images",
       "createdAt": "2022-07-24T20:29:59Z",
-      "url": "https://github.com/vishal-gade/uvd-robo",
-      "description": "UVD Robot",
+      "url": "https://github.com/abhi9741/Spectral-Reconstruction-from-RGB-Images",
+      "description": null,
       "isFork": false,
       "languages": [
         {
@@ -52,12 +44,17 @@
     },
     {
       "id": "R_kgDOHtc98w",
-      "name": "arduino",
+      "name": "Organic Waste Classification from Images of Waste",
       "createdAt": "2022-07-24T19:51:33Z",
-      "url": "https://github.com/vishal-gade/arduino",
-      "description": "minor projects with arduino",
+      "url": "https://github.com/abhi9741/Organic-Waste-Classification-from-Images-of-Waste",
+      "description": null,
       "isFork": false,
-      "languages": []
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
     }
   ]
 }
